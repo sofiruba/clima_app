@@ -19,6 +19,7 @@ nav {
 
 .input-field input[type=text]{
   background-color: #FFF;
+  border-radius: 3px;
 }
 
 
@@ -62,7 +63,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   font-size: 1.6rem;
   text-align: center;
 }
-.card-panel p {
+.card-panel p { 
   text-align: center;
   font-size: 1.4rem;
 }
@@ -77,6 +78,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
 .btn-block {
   display: block;
   position: static;
+  border-radius: 3px;
 }
 .row{
   height: 100vh;
@@ -92,7 +94,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   position: absolute;
 }
 .card-panel{
-  border-radius: 1%;
+  border-radius: 10;
 }
 
 .title{

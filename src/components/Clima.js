@@ -13,6 +13,7 @@ export default function Clima() {
         return axios.get('http://api.openweathermap.org/data/2.5/weather', {params:{q : q, APPID: '467eb2e2a1738c82e813a30610d7c354' }})
         .then(res => {
             if(res.status === 200){
+                console.log(res.data)
                 setTemp(res.data.main)
                 cont.innerText= ''
             }
@@ -35,7 +36,7 @@ export default function Clima() {
     useEffect(()=> {
         getClima()
     })
-    return (
+     return (
         <div className="col m6 s12">
             <div className="card-panel white col s12">
                 <div className="black-text">
